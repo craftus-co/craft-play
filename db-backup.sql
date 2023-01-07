@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Creato il: Gen 07, 2023 alle 12:02
+-- Creato il: Gen 07, 2023 alle 12:03
 -- Versione del server: 5.7.39-42-log
 -- Versione PHP: 7.4.33
 
@@ -605,7 +605,7 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `version`, `schemaVersion`, `maintenance`, `configVersion`, `fieldVersion`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, '4.3.6', '4.0.0.9', 0, 'gbgjgyozadmy', '3@mhzxnfiipn', '2023-01-07 11:59:22', '2023-01-07 12:01:28', '196b9a16-3a36-4b91-a474-a0e9742b82d3');
+(1, '4.3.6', '4.0.0.9', 0, 'hhsxrmxzeruu', '3@mhzxnfiipn', '2023-01-07 11:59:22', '2023-01-07 12:02:59', '196b9a16-3a36-4b91-a474-a0e9742b82d3');
 
 -- --------------------------------------------------------
 
@@ -735,7 +735,7 @@ CREATE TABLE `projectconfig` (
 --
 
 INSERT INTO `projectconfig` (`path`, `value`) VALUES
-('dateModified', '1673092765'),
+('dateModified', '1673092978'),
 ('email.fromEmail', '\"v.jalbu31@gmail.com\"'),
 ('email.fromName', '\"api\"'),
 ('email.transportType', '\"craft\\\\mail\\\\transportadapters\\\\Sendmail\"'),
@@ -752,7 +752,7 @@ INSERT INTO `projectconfig` (`path`, `value`) VALUES
 ('sites.0b2a6e68-0ce4-4cff-ac92-3dba0c40bfac.primary', 'true'),
 ('sites.0b2a6e68-0ce4-4cff-ac92-3dba0c40bfac.siteGroup', '\"bb36a926-4648-434d-98c1-a9867d499469\"'),
 ('sites.0b2a6e68-0ce4-4cff-ac92-3dba0c40bfac.sortOrder', '1'),
-('system.edition', '\"solo\"'),
+('system.edition', '\"pro\"'),
 ('system.live', 'true'),
 ('system.name', '\"api\"'),
 ('system.schemaVersion', '\"4.0.0.9\"'),
@@ -981,7 +981,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `userId`, `token`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 1, 'Q2IPl59rGbmFVTO0UMu9RcVNmA61MV3e46tlV-q6Pe_uAra09sdmG8LtJoKQ9bg-1DW6YvJpoukXpUTuBt4e3wFRc6uYnnq3Z9oz', '2023-01-07 11:59:57', '2023-01-07 12:01:48', '45e4e12f-1089-4839-bd80-95bed4cc33d2');
+(1, 1, 'Q2IPl59rGbmFVTO0UMu9RcVNmA61MV3e46tlV-q6Pe_uAra09sdmG8LtJoKQ9bg-1DW6YvJpoukXpUTuBt4e3wFRc6uYnnq3Z9oz', '2023-01-07 11:59:57', '2023-01-07 12:03:09', '45e4e12f-1089-4839-bd80-95bed4cc33d2');
 
 -- --------------------------------------------------------
 

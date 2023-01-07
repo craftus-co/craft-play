@@ -1,15 +1,15 @@
-dateModified: 1673092765
+dateModified: 1673092978
 email:
   fromEmail: v.jalbu31@gmail.com
   fromName: api
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    0b2a6e68-0ce4-4cff-ac92-3dba0c40bfac: api
-    b3fbe883-13ae-4f36-85ca-0f7e6749a81a: Common
-    bb36a926-4648-434d-98c1-a9867d499469: api
+    0b2a6e68-0ce4-4cff-ac92-3dba0c40bfac: api # api
+    b3fbe883-13ae-4f36-85ca-0f7e6749a81a: Common # Common
+    bb36a926-4648-434d-98c1-a9867d499469: api # api
 system:
-  edition: solo
+  edition: pro
   live: true
   name: api
   schemaVersion: 4.0.0.9

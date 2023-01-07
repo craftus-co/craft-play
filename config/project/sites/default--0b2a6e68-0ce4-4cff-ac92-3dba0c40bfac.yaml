@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: api
 primary: true
-siteGroup: bb36a926-4648-434d-98c1-a9867d499469
+siteGroup: bb36a926-4648-434d-98c1-a9867d499469 # api
 sortOrder: 1
